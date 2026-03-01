@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            the Web App
+        </title>
+        <link href="css/index.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/clouds.css">
+     </head>
+    <body>
+     <header class="navbak">
+      <a href="#main" id="stm">Skip to Main Content</a>
+    <nav>
+      <h1>AI Art</h1>
+      <ul class="flex">
+        <li><a href="index.html">Home</a></li>
+		<li><a href="void/index.php">Verse of the Day</a></li>
+       	<li><a href="fdhai.html">other home </a></li>
+        <li><a href="slshow02.html">Slideshow Gallery</a></li>
+        <li><a href="https://fdhai.tech">fdhai</a></li>
+        
+		<li><a href="tab01.html">Tabbed Gallery</a></li>
+		
+        </ul>
+	<div class="art">
+	
+	  </div>
+    </nav>
+        
+  </header>
+  <div id="background-wrap">
+      <div class="x1">
+          <div class="cloud"></div>
+      </div>
+      <div class="x2">
+          <div class="cloud"></div>
+      </div>
+      <div class="x3">
+          <div class="cloud"></div>
+      </div>
+      <div class="x4">
+          <div class="cloud"></div>
+      </div>
+      <div class="x5">
+          <div class="cloud"></div>
+      </div>
+  </div>
+        <h1>
+            Learning to develop a Web App!
+        </h1>
+		<div class="art">
+        <img id="e2port1" src="images/e2port1.jpg">
+		</div>
+                
+        <hr>
+		<section>
+		<div style="text-align:center">
+		  <h2>AI Art Gallery</h2>
+		  <p>Click on the images below:</p>
+		</div>
+		<!-- The grid: four columns -->
+		<div class="row">
+		<div class="column">
+			<img src="images/a&dport.jpg" alt="Time to go to Work!" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/htdw.jpg" alt="High Tech Doorway to Earth 2" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/a&dport2.jpg" alt="Angels and Daemons enter the portal to Earth 2" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/entry1.jpg" alt="Portal from Ground 0" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/pooh.jpg" alt="Portal Out of Hell" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/e2dw.jpg" alt="Earth 2 doorway to Ground 0" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/e2toe1.jpg" alt="earth 2 doorway to earth 1" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/stairway.jpg" alt="Stairway to Heaven" onclick="myFunction(this);">
+		  </div>
+		  
+		</div>
+		</section>
+		<!-- The expanding image container -->
+		<div class="container">
+		  <!-- Close the image -->
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+		  <!-- Expanded image -->
+		  <img id="expandedImg" style="width:100%">
+
+		  <!-- Image text -->
+		  <div id="imgtext"></div>
+		</div>
+	<section>
+    <h2>More AI art</h2>
+    <p>
+      There are many AI servers that can generate AI art.
+    </p>
+    <p> Here are some examples</p?
+    <ul>
+      <li>
+        <a href="https://www.bing.com/images/create">CoPilot Designer</a>
+      </li>
+      <li>
+        <a href="https://www.craiyon.com/">Craiyon</a>
+      </li>
+      <li><a href="https://creator.nightcafe.studio/?ru=fdhai">NightCafe</a>
+      </li>
+    </ul>
+  </section>
+  <div id="main" >
+	<p>Ever wonder about how things get done? For as many things that we can do, we still find ourselves in need of assistance. Technology provides us with enhanced functions. It enables so many industries the ability to create products and provide services that would have taken hundreds of people to perform.  </p>
+
+    <p>Great strides have been taken, technologically speaking, to provide us with access to information that was normally not available. this information that empowers our lives is available at light speeds!</p>
+    <p>Artificial Intelligence or AI is a branch of Computer Science that uses computers to provide solutions to problems in a very short period of time.
+       </p>
+    <div class="grid art">
+      <a href="images/vsolight.jpg"><img src="images/vsolight.jpg"
+        alt=" Imagine Viper Mage orchestrating a symphony of light and sound within a colossal, bioluminescent cavern, where fractal patterns dance across." width="100">
+      </a>
+	  <img src="images/a&dport01.jpg" alt="angels and daemons lined up at the portal to Earth 2" width="100">
+      <img src="images/digitallib.jpg" alt="Docker Scout, Daemon Socket, and Viper Mage navigate a vast, neon-lit digital library, surrounded by towering shelves of radiant data crystals and vintage circuit boards"
+        width="100">
+      <img src="images/httodaemon.jpg" alt="http daemon" width="100">
+      <img src="images/psyjour.jpg" alt="Psycho Journey" width="100">
+      <img src="images/fractal1.jpg" alt="The Fractal"
+        width="100">
+      <img src="images/newcity.jpg" alt="A New City" width="100">
+      <img src="images/earth2land.jpg"
+        alt="bronze statue" width="100">
+      <img src="images/giant8army.jpg" alt="giant 8 army" width="100">
+      <img src="images/ViperMage1.jpg" alt="Viper Mage"
+        width="100">
+    </div>
+  </div>
+  <section class="flex" id="main">
+    <div class="art">
+      <img src="images/earth2.jpg" alt="earth 2" width="100">
+      <img src="images/vmarch.jpg" alt="Viper Mage the Architect" width="100">
+      <img src="images/newh02.jpg" alt="fast moving vehicle" width="100">
+      <img src="images/e2port02.jpg" alt="cross with thorns" width="100">
+      <img src="images/dockmusic.jpg" alt=" dock music" width="100">
+      <img src="images/castle1.jpg" alt=" castle" width="100">
+      <img src="images/fromgoodsoil.jpg" alt=" Good Soil" width="100">
+      
+
+    </div>
+
+  </section>
+  <section class="art">
+    <h2>More AI art</h2>
+    <p>
+      Examples of AI art hallucinations!
+    </p>
+    <img src="images/color1.jpg" alt="AI Art" width="250" height="250">
+    <img src="images/qoh03.jpg" alt="AI Art" width="250" height="250">
+    <img src="images/ncres.png" alt="AI Art" width="250" height="250">
+    <ul>
+      <li>
+        <a href="https://www.bing.com/images/create">CoPilot Designer</a>
+      </li>
+      <li>
+        <a href="https://www.craiyon.com/">Craiyon</a>
+      </li>
+      <li>
+		<a href="https://creator.nightcafe.studio/?ru=fdhai">NightCafe</a>
+      </li>
+    </ul>
+  </section>
+ 
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>	
+		<div>
+		
+		</div>
+        <div>
+        <p>
+           <strong>Looks like this is the start of a whole new ballgame!!</strong>
+           </p>
+        </div>
+        <div>
+        <p>
+            First lets <i>learn</i> how to use <strong>Git</strong>.
+        </p>
+        </div>
+		 <footer>
+		 <div class="flex-container">
+		<div class="myheader">
+			<h1 id="myHeader">Verse of the day</h1>
+			<br />
+				<h3>
+					He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
+					‭‭Mark‬ ‭16‬:‭15‬-‭16‬ ‭NIV‬‬
+				</h3>
+			<nav>
+			  <ul class="flex">
+				<li><a href="/index.html"><strong>Home</strong></a></li>	
+				<li><a href="indexa.php"><strong>Verses</strong></a></li>
+				<li><a href="veroday.html"><strong>Verse of the day</strong></a></li>
+				<li><a href="gp/">VOD</a></li>
+				<li><a href="/slshow01.html">Slideshow Gallery</a></li>
+				<li><a href="/slshow02.html">Slideshow Gallery</a></li>
+			  </ul>    
+			</nav>
+	<br />
+	<hr />
+		</div>
+    <p>This page was originally created by Colleen van Lent for the <a
+        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
+      Students are invited to make changes.</p>
+  </footer>
+    </body>
+</html> 
